@@ -34,7 +34,7 @@ class AlarmSystem:
         """Activa la alarma visual y sonora."""
         self.alarm_active = True
         self.start_time = time.time()
-        winsound.Beep(1000, 1000)  # Frecuencia 1000Hz por 1 segundo
+        winsound.Beep(1200, 2500)  # Frecuencia 1000Hz por 1 segundo
 
     def update(self) -> None:
         """Actualiza el estado de la alarma."""
