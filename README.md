@@ -31,7 +31,7 @@ Esta herramienta demuestra cómo la visión por computadora puede proporcionar s
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu_usuario/tu_repositorio.git
+   git clone https://github.com/jrodriguezblangino/FaceDetectorAlarm
    cd tu_repositorio
    ```
 
