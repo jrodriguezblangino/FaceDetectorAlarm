@@ -1,6 +1,5 @@
 import cv2
 import argparse
-from typing import Tuple
 from config import settings
 from detector.face_detector import FaceDetector
 from alarm.alarm_system import AlarmSystem

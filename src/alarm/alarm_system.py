@@ -1,6 +1,5 @@
 import time
 import winsound
-from typing import Callable
 
 class AlarmSystem:
     """Maneja las alarmas visuales y sonoras.
