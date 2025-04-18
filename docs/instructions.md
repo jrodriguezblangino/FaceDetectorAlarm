@@ -9,7 +9,7 @@ Este documento proporciona instrucciones sobre cómo instalar y utilizar el sist
 1. **Clonar el repositorio:**
    Abre una terminal y ejecuta el siguiente comando para clonar el repositorio:
    ```bash
-   git clone https://github.com/tu_usuario/tu_repositorio.git
+   git clone https://github.com/jrodriguezblangino/FaceDetectorAlarm
    cd tu_repositorio
    ```
 
@@ -44,10 +44,58 @@ Este documento proporciona instrucciones sobre cómo instalar y utilizar el sist
 
 Las contribuciones son bienvenidas. Si deseas contribuir al proyecto, por favor abre un issue o un pull request en GitHub.
 
-## Contacto 📧
-
-Si tienes preguntas o necesitas ayuda, no dudes en contactarme a través de mi perfil de GitHub.
-
 ---
 
 ¡Gracias por usar el Sistema de Detección Facial con Alarma! 🎉
+
+
+---
+
+
+
+---Instructions for Facial Detection System with Alarm 🚨
+======================================================
+
+Introduction
+------------
+
+This document provides instructions on how to install and use the facial detection system with alarm. This system uses OpenCV and MediaPipe to detect faces in real-time and activate a visual and sound alarm when a specific number of faces is detected.
+
+Installation 🛠️
+----------------
+
+1.  bashgit clone https://github.com/jrodriguezblangino/FaceDetectorAlarm.gitcd your\_repository
+    
+2.  bashpip install -r requirements.txt
+    
+
+Usage 🚀
+--------
+
+1.  bashpython src/main.py
+    
+2.  **Configure the activation threshold:**
+
+You will be asked to enter the threshold of people you want to detect to activate the alarm. Enter an integer and press Enter.
+    
+3.  **Interaction with the system:**
+    
+    *   When faces are detected and the number exceeds the threshold, the alarm will activate.
+        
+    *   You will be asked if you want to restart the face check. If you choose "y", you can enter a new threshold.
+        
+
+Features 🌟
+-----------
+
+*   **Real-time face detection:** Uses the camera to detect faces live.
+    
+*   **Visual and sound alarm:** Activates when the detection threshold is exceeded.
+    
+*   **Command line interface:** Allows you to configure the activation threshold and alarm duration.
+    
+
+Contributions 🤝
+----------------
+
+Contributions are welcome. If you wish to contribute to the project, please open an issue or a pull request on GitHub.
