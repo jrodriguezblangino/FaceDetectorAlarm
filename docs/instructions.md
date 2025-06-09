@@ -1,5 +1,5 @@
 # Instrucciones para el Sistema de Detección Facial con Alarma 🚨
-
+ 
 ## Introducción
 
 Este documento proporciona instrucciones sobre cómo instalar y utilizar el sistema de detección facial con alarma. Este sistema utiliza OpenCV y MediaPipe para detectar caras en tiempo real y activar una alarma visual y sonora cuando se detecta un número específico de caras.
